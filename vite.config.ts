@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/hotllink-test/', // Set the base path for the application
+  base: '/hotllink-test-mvp/', // Set the base path for the application
 });
