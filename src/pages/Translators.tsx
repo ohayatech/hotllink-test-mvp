@@ -263,7 +263,7 @@ const Translators = () => {
                   <div className="grid grid-cols-2 gap-3 mb-4 text-sm">
                     <div className="flex items-center space-x-2">
                       <DollarSign className="w-4 h-4 text-gray-400" />
-                      <span>R${translator.hourlyRate}/hora</span>
+                      <span>MZN{translator.hourlyRate}/hora</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <Clock className="w-4 h-4 text-gray-400" />
@@ -367,7 +367,7 @@ const Translators = () => {
                 <p className="text-gray-600">Baseado nas tarifas médias para o serviço selecionado</p>
               </div>
               <div className="text-right">
-                <div className="text-3xl font-bold text-blue-600">R$90 - R$120</div>
+                <div className="text-3xl font-bold text-blue-600">MZN90 - MZN120</div>
                 <div className="text-sm text-gray-600">para 2 horas</div>
               </div>
             </div>

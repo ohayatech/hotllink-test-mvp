@@ -132,7 +132,7 @@ const Services = () => {
                 
                 <div className="flex items-center justify-between">
                   <div className="text-2xl font-bold text-blue-600">
-                    R${option.price}
+                    MZN{option.price}
                   </div>
                   <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg hover:shadow-lg transition-all duration-200 font-semibold">
                     Reservar

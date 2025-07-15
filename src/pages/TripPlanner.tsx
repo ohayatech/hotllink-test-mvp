@@ -55,7 +55,7 @@ const TripPlanner = () => {
                 </div>
                 <div className="flex items-center space-x-1">
                   <DollarSign className="w-4 h-4" />
-                  <span>R${totalBudget} Orçamento</span>
+                  <span>MZN{totalBudget} Orçamento</span>
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@ const TripPlanner = () => {
                   </div>
                   <div className="flex justify-between">
                     <span>Custo Estimado:</span>
-                    <span className="font-medium text-blue-600">R${totalBudget}</span>
+                    <span className="font-medium text-blue-600">MZN{totalBudget}</span>
                   </div>
                 </div>
               </div>
@@ -161,7 +161,7 @@ const TripPlanner = () => {
                             </span>
                             {item.cost > 0 && (
                               <span className="text-green-600 font-semibold text-sm">
-                                R${item.cost}
+                                MZN{item.cost}
                               </span>
                             )}
                           </div>
@@ -193,7 +193,7 @@ const TripPlanner = () => {
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-green-600">
-                      R${(itinerary[currentDay as keyof typeof itinerary] || []).reduce((sum, item) => sum + item.cost, 0)}
+                      MZN{(itinerary[currentDay as keyof typeof itinerary] || []).reduce((sum, item) => sum + item.cost, 0)}
                     </div>
                     <div className="text-sm text-gray-600">Custo Diário</div>
                   </div>

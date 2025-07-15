@@ -142,7 +142,7 @@ const Hotels = () => {
                 onChange={(e) => setPriceRange([priceRange[0], parseInt(e.target.value)])}
                 className="w-32"
               />
-              <span className="text-sm text-gray-600">R${priceRange[1]}</span>
+              <span className="text-sm text-gray-600">MZN{priceRange[1]}</span>
             </div>
             <div className="flex items-center space-x-2">
               <span className="text-sm text-gray-600">Classificação mínima:</span>
@@ -209,7 +209,7 @@ const Hotels = () => {
                 
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-2xl font-bold text-gray-900">R${hotel.price}</span>
+                    <span className="text-2xl font-bold text-gray-900">MZN{hotel.price}</span>
                     <span className="text-gray-600 text-sm">/noite</span>
                   </div>
                   <div className="text-right">
