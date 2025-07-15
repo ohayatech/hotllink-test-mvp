@@ -270,7 +270,7 @@ const CarRental = () => {
                   
                   <div className="flex items-center justify-between">
                     <div>
-                      <span className="text-2xl font-bold text-blue-600">R${vehicle.price}</span>
+                      <span className="text-2xl font-bold text-blue-600">MZN{vehicle.price}</span>
                       <span className="text-gray-600 text-sm">/dia</span>
                     </div>
                     <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transition-all duration-200 font-semibold">
@@ -290,7 +290,7 @@ const CarRental = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="border border-gray-200 rounded-xl p-6 hover:border-blue-300 transition-colors">
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Cobertura Básica</h4>
-              <div className="text-2xl font-bold text-blue-600 mb-2">R$12/dia</div>
+              <div className="text-2xl font-bold text-blue-600 mb-2">MZN12/dia</div>
               <ul className="text-sm text-gray-600 space-y-2">
                 <li>✓ Isenção de Danos por Colisão</li>
                 <li>✓ Proteção contra Roubo</li>
@@ -303,7 +303,7 @@ const CarRental = () => {
                 Mais Popular
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Cobertura Premium</h4>
-              <div className="text-2xl font-bold text-blue-600 mb-2">R$24/dia</div>
+              <div className="text-2xl font-bold text-blue-600 mb-2">MZN24/dia</div>
               <ul className="text-sm text-gray-600 space-y-2">
                 <li>✓ Todas as Coberturas Básicas</li>
                 <li>✓ Seguro de Acidentes Pessoais</li>
@@ -314,7 +314,7 @@ const CarRental = () => {
             
             <div className="border border-gray-200 rounded-xl p-6 hover:border-blue-300 transition-colors">
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Proteção Total</h4>
-              <div className="text-2xl font-bold text-blue-600 mb-2">R$35/dia</div>
+              <div className="text-2xl font-bold text-blue-600 mb-2">MZN35/dia</div>
               <ul className="text-sm text-gray-600 space-y-2">
                 <li>✓ Todas as Coberturas Premium</li>
                 <li>✓ Franquia Zero</li>
