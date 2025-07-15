@@ -13,7 +13,7 @@ import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
-    <Router basename={"/hotllink-test-mvp"}>
+    <Router basename={"/hotllink-test-mvp/"}>
       <div className="min-h-screen bg-gray-50">
         <Navbar />
         <main>
